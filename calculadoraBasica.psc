@@ -1,10 +1,10 @@
 Proceso CLASE_10_ejercicio_1_calculadora_Basica
 	Definir num1,num2,resultado Como Real;
 	
-	Escribir "CALCULADORA B¡SICA";
-	Escribir "ingresa el primer n˙mero: ";
+	Escribir "CALCULADORA B√ÅSICA";
+	Escribir "ingresa el primer n√∫mero: ";
 	leer num1;
-	Escribir "ingresa el segundo n˙mero: ";
+	Escribir "ingresa el segundo n√∫mero: ";
 	Leer num2;
 	
 	Escribir "Resultado: ";
@@ -16,8 +16,11 @@ Proceso CLASE_10_ejercicio_1_calculadora_Basica
 	Escribir "la resta es de: ",num1," - ",num2," = ",resultado; //Muestra;
 	//Muestra
 	resultado <- num1 * num2;
-	Escribir "la multiplicaciÛn es de: ",num1," * ",num2," = ",resultado; //Muestra;
-	//DivisiÛn
+	Escribir "la multiplicaci√≥n es de: ",num1," * ",num2," = ",resultado; //Muestra;
+	//Divisi√≥n
 	resultado <-num1 / num2;
-	Escribir "la divisiÛn es de: ",num1," / ",num2," = ",resultado; //Muestra;
+	Escribir "la divisi√≥n es de: ",num1," / ",num2," = ",resultado; //Muestra;
+	//Residuo
+	resultado <-num1 % num2;
+	Escribir "El resultado es: ",num1," % ",num2," = ", resultado; //Muestra;
 FinProceso
